@@ -11,6 +11,14 @@ body {
 	height:400px;
 }
 
+.projThumb {
+	clear:left;
+	float:left;
+	width: 180px;
+	height:100.875px;
+	margin: 0 20px 10px 0;
+}
+
 .jobfocus{
 	background-color:yellow;
 }
