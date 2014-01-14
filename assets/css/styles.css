@@ -11,6 +11,10 @@ body {
 	height:400px;
 }
 
+.intro {
+	margin-right: 20px;
+}
+
 .projThumb {
 	clear:left;
 	float:left;
@@ -48,18 +52,36 @@ body {
 
 .socMediaList {
 	display:inline-block;
-	margin: 20px;
+	margin-left: 40px;
 }
 
 .socMediaList ul {
 	list-style-type: square;
 }
 
+.label {
+	font-weight: bold;
+}
+
+.move20 {
+	padding: 10px 30px;
+}
+
 #coderbits {
 	float:left;
-	margin: 20px;
+	margin-left:40px;
+}
+
+#newsle-widget {
+	float:left;
+	margin-right: 20px;
+	margin-right:40px;
 }
 
 #profile {
 	margin: 10px;
+}
+
+#projCon .headline {
+	margin-bottom: 0;
 }
