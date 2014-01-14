@@ -43,6 +43,21 @@ body {
 
 .headline {
 	border-bottom: 4px solid black;
+	margin-bottom: 10px;
+}
+
+.socMediaList {
+	display:inline-block;
+	margin: 20px;
+}
+
+.socMediaList ul {
+	list-style-type: square;
+}
+
+#coderbits {
+	float:left;
+	margin: 20px;
 }
 
 #profile {

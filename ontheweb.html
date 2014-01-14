@@ -12,6 +12,8 @@
     <!-- Le styles -->
     <link href="./assets/css/bootstrap.css" rel="stylesheet">
     <link href="./assets/css/styles.css" rel="stylesheet">
+    <link href="https://coderbits.com/content/widget/coderbits.css" media="all" rel="stylesheet" type="text/css">
+
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
@@ -63,17 +65,29 @@
 
       <div class="clearfix"></div>
     </div>
-    <div class="container" id="VolWork">
+    <div class="container" id="socMedia">
       <div class="headline"><h3>Social Media</h3></div>
-      <div>
-      <ul>
-        <li><a href="http://www.linkedin.com/pub/kyle-warneck/3/9b7/5b3/">LinkedIn</a></li>
-        <li><a href="https://twitter.com/Kylewarneck">Twitter</a></li>
-        <li><a href="https://github.com/kylew/">Github</a></li>
-        <li><a href="https://coderbits.com/KyleW">Coderbits</a></li>
-      </ul>
-    </div>
+        <div class="socMediaList">
+          <ul>
+            <li><a href="http://www.linkedin.com/pub/kyle-warneck/3/9b7/5b3/">LinkedIn</a></li>
+            <li><a href="https://twitter.com/Kylewarneck">Twitter</a></li>
+            <li><a href="https://github.com/kylew/">Github</a></li>
+            <li><a href="https://coderbits.com/KyleW">Coderbits</a></li>
+          </ul>
+        </div>
+        <div id="coderbits" data-coderbits-username="KyleW"></div>
+      <div class="clearfix"></div>
     </div> <!-- /container -->
+
+
+    <div class="container" id="inTheNews">
+      <div class="headline"><h3>In The News</h3></div>
+      <div id="newsle-widget"><a id="newsle-widget-a" href="http://newsle.com/">Newsle</a></div><script type="text/javascript" src="http://cdn.newsle.com/widget.js?id=713220&width=250&height=300"></script>
+      </div>
+      <div class="clearfix"></div>
+    </div> <!-- /container -->
+
+
     <div class="clearfix"></div> 
     <hr>
     <footer>
@@ -97,9 +111,11 @@
     
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-    <script src="/assets/js/scripts.js"></script>
-    <!-- <script src="boostrap.js"></script> -->
-    <script src="/assets/js/boostrap.min.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+    <script src="./assets/js/boostrap.js"></script>
+    <script src="./assets/js/boostrap.min.js"></script>
+    <script src="https://coderbits.com/content/widget/coderbits.js"></script>
+
 
   </body>
 </html>
