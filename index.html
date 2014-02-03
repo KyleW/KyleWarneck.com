@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The internet home for Kyle Warneck- Software Engineer, Product Manager and Volunteer Technology Trainer">
     <meta name="author" content="Kyle Warneck">
+    <meta name="keywords" content="Kyle Warneck">
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
 
     <!-- Le styles -->
@@ -18,7 +19,12 @@
       }
     </style>
     <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/coderbits.piecharts.css">
 
+        <script type="text/javascript" src="assets/js/raphael-min.js"></script>
+        <script type="text/javascript" src="assets/js/g.raphael-min.js"></script>
+        <script type="text/javascript" src="assets/js/g.pie-min.js"></script>
+        <script type="text/javascript" src="assets/js/coderbits.piecharts.js"></script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="../assets/js/html5shiv.js"></script>
@@ -44,8 +50,8 @@
     <div class="container">
       <div class="hero-unit">
         <div>
-          <div><img src="./assets/img/profile.jpg" class="pull-right img-circle"></div>
-          <div>
+          <div><img src="./assets/img/profile.jpg" class="pull-right img-circle profile"></div>
+          <div class="desc">
           <h1>Hi, I'm Kyle</h1><br>
            <!-- <p><h3>Thanks for visiting my site!</h3></p> -->
           <p>I'm a full-stack software engineer with a background in JavaScript and product management.</p>
@@ -62,7 +68,7 @@
           <a href="https://twitter.com/Kylewarneck"><img class="socMediaIcon" src="./assets/img/Twitter-Icon-2.png"/></a>
         </div>
       </div>
-
+      <div id="coderbits" data-coderbits-username="kylew"><img src="assets/img/loading.gif" /></div>
     </div> <!-- /container -->
 
     <div class="clearfix"></div> 
